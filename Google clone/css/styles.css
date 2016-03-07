@@ -1,0 +1,170 @@
+#header {
+	float: right;
+	position: relative;
+}
+
+#app-icons {
+	position: absolute;
+	right: 20px;
+    top: 55px;
+    width: 320px;
+	border: solid black;
+	/*display: none;*/
+}
+
+.icon {
+	width: 60px;
+	height: 60px;
+	padding: 5px;
+	margin: 15px;
+	background-image: url("https://ssl.gstatic.com/gb/images/v1_8758f7bb.png");
+	position: relative;
+	float: left;
+
+	
+}
+
+.info {
+	font-family: arial;
+	font-size: 12px;
+	text-align: center;
+	width: 67px;
+	margin-top: 60px;
+}
+
+.arrow {
+	border-left: 25px solid blue;
+	border-right: 25px solid blue;
+	border-top: 25px solid blue;
+	border-bottom: 25px solid blue;
+}
+
+.icon.one {
+	background-position: 0px 1090px;
+}
+
+.icon.two {
+	background-position: -13px 2332px;
+}
+
+.icon.three {
+	background-position: 0px 2091px;
+}
+
+.icon.four {
+	background-position: 0px 2541px;
+}
+
+.icon.five {
+	background-position: 0px 765px;
+}
+
+.icon.six {
+	background-position: 0px 553px;
+}
+
+.icon.seven {
+	background-position: 5px 837px;
+}
+
+.icon.eight {
+	background-position: 0px 2332px;
+}
+
+.icon.nine {
+	background-position: 0px 2332px;
+}
+
+.header-item {
+	float: left;
+	margin-right: 10px;
+	height: 30px;
+	line-height: 30px;
+	margin-top: 10px;
+	margin-right: 10px;
+}
+
+.header-item.grid {
+	background-image: url('https://ssl.gstatic.com/gb/images/i1_1967ca6a.png');
+	background-position: -132px -38px;
+	background-size: 528px 68px;
+	height: 30px;
+	width: 30px;
+
+}
+
+.header-item.bell {
+	background-image: url('https://ssl.gstatic.com/gb/images/i1_1967ca6a.png');
+	background-position: -194px -21px;
+	background-size: 528px 68px;
+    background-color: rgba(0,0,0,.55);
+    margin: 15px 10px 5px 5px;
+    color: #fff;
+    padding: 0 2px;
+    text-align: center;
+ 	box-sizing: border-box;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+}
+
+.header-item.letter {
+	background-color: #5A97FF;
+    color: #fff;
+  	border-radius: 50%;
+    display: block;
+    overflow: hidden;
+    height: 32px;
+    width: 32px;
+    margin-left: 10px;
+
+}
+
+.j {
+	font-size: 20px;
+    font-family: arial;
+    text-align: center;
+    line-height: normal;
+    line-height: 32px;
+}
+
+.header-text {
+	font-family: arial;
+}
+
+#google-logo {
+	height: 231px;
+	text-align: center;
+	padding-top: 150px;
+}
+#google-logo img {
+	height: 92px;
+    width: 272px;
+}
+
+#search-form {
+	text-align: center;
+	position: relative;
+	width: 670px;
+	margin: auto;
+}
+
+input {
+	width: 670px;
+	height: 36px;
+	font-size: 18px;
+	padding-left: 5px;
+
+}
+
+#mic {
+	position: absolute;
+	right: 0px;
+	top: 10px;
+}
+
+#mic img {
+	height: 25px;
+	width: 25px;
+}
+
